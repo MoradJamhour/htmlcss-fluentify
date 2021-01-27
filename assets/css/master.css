@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/*centering content*/
+.alignment {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header{
+  background-color: #10375F;
+}
+
+/*styling the navbar*/
+.listr {
+  float: right;
+}
+
+ul {
+  display: inline-block;
+  list-style: none;
+  height: 80px;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+li {
+  display: inline-block;
+  margin-top: 20px;
+  padding-top: 5px;
+  padding-left: 15px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.button{
+ border: solid white;
+ padding: 5px 15px;
+ border-radius: 5px;
+}
+
+.buttong {
+  padding: 5px 15px;
+  border-radius: 5px;
+  background-color: #7BBC00;
+}
