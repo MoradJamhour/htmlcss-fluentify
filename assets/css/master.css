@@ -8,6 +8,26 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.row{
+  margin: 0 -5px;
+}
+
+.row:after {
+  content: '';
+  clear: both;
+  display: table;
+}
+/*Floating the colums*/
+div[class^="col"]{
+  float: left;
+  padding: 0 5px;
+}
+
+.col-100{width: 100%;}
+.col-50{width: 50%;}
+.col-33{width: 33%;}
+.col-25{width: 25%;}
+
 /*centering content*/
 .alignment {
   width: 80%;
@@ -21,6 +41,40 @@ header{
 /*styling the navbar*/
 .listr {
   float: right;
+}
+
+.jumbo{
+  background-image: url('../img/background-header.png');
+  background-size: 60%;
+  background-position: 115% 100%;
+  background-repeat: no-repeat;
+  /*background-position: right;*/
+}
+
+hr{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+h1{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+
+h3{
+  text-align: center;
+  color: #7CBB02;
+}
+
+.mid-title{
+  text-align: center;
+  padding: 25px;
+}
+
+span{
+  /*text-align: center;*/
+  color: #808080;
 }
 
 ul {
@@ -38,9 +92,51 @@ li {
   padding-left: 15px;
 }
 
-a {
+.jumbo a{
   color: white;
   text-decoration: none;
+}
+
+ul a {
+  color: white;
+  text-decoration: none;
+}
+
+.position a {
+  color: white;
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+p{
+  color: #808080;
+}
+
+.col-33{
+  padding: 15px;
+}
+
+.col-33 img{
+  height: 200px;
+  margin-left: 80px;
+}
+
+.col-33 p{
+  text-align: center;
+  color: #808080;
+}
+
+.col-33 hr{
+  width: 30%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.main-head{
+  background-color: #b3b2b1;
 }
 
 .button{
@@ -50,6 +146,49 @@ a {
 }
 
 .buttong {
+  padding: 5px 15px;
+  border-radius: 5px;
+  background-color: #7BBC00;
+}
+
+.buttong1{
+  display: inline-block;
+  padding: 15px 15px;
+  border-radius: 5px;
+  background-color: #7BBC00;
+  margin-bottom: 222px;
+}
+
+footer{
+  background-color: #b3b2b1;
+}
+
+footer h2{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.col-50 span{
+  font-size: 20px;
+}
+
+.list-style{
+  background-color: #b3b2b1;
+  border: none;
+  border-bottom: 1px solid #808080;
+  font-size: 20px;
+  color: #808080;
+}
+
+.position{
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.help{
+  position: fixed;
+  color: white;
+  text-decoration: none;
   padding: 5px 15px;
   border-radius: 5px;
   background-color: #7BBC00;
